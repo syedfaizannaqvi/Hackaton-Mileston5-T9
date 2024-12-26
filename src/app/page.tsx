@@ -6,11 +6,10 @@ import ExtraordinaryTaste from './components/ExtraordinaryTaste'
 import Statistics from './components/Statistics'
 import Menu from './components/Menu'
 import FoodTeam from './components/FoodTeam'
-import Hero from './components/Hero'
 import Testimonials from './components/Testimonials'
 import RestaurantProcess from './components/RestaurantProcess'
 import BlogPost from './components/BlogPost'
-import { BiComment } from 'react-icons/bi';
+
 
 
 export default function Home() {
