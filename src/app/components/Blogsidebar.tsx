@@ -1,4 +1,4 @@
-/*import Image from 'next/image';
+import Image from 'next/image';
 import Button from './ui/Button';
 import PopularTags from './sidebar/PopularTags';
 import PhotoGallery from './sidebar/PhotoGallery';
@@ -16,7 +16,7 @@ interface SidebarProps {
 const BlogSidebar = ({ recentPosts, filterImages, instagramImages }: SidebarProps) => {
     return (
         <div className='lg:col-span-1 sm:col-span-1 space-y-8 max-w-sm mx-auto lg:mx-0'>
-            {/* Search Bar }
+            {/* Search Bar */}
             <div className='flex h-14 shadow-sm'>
                 <input 
                     type="text"
@@ -33,32 +33,32 @@ const BlogSidebar = ({ recentPosts, filterImages, instagramImages }: SidebarProp
                 </Button>
             </div>
 
-            {/* Profile Card }
+            {/* Profile Card */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <ProfileCard />
             </div>
 
-            {/* Recent Posts }
+            {/* Recent Posts */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <RecentPosts />
             </div>
 
-            {/* Filter By Menu }
+            {/* Filter By Menu */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <FilterByMenu />
             </div>
 
-            {/* Popular Tags }
+            {/* Popular Tags */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <PopularTags />
             </div>
 
-            {/* Photo Gallery (Instagram Feed) }
+            {/* Photo Gallery (Instagram Feed) */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <PhotoGallery />
             </div>
 
-            {/* Social Follow }
+            {/* Social Follow */}
             <div className='bg-white rounded-xl p-6 border border-gray-100 shadow-sm'>
                 <SocialFollow />
             </div>

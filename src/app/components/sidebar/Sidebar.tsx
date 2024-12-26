@@ -3,7 +3,7 @@ import PopularTags from './PopularTags';
 import PhotoGallery from './PhotoGallery';
 import SocialFollow from './SocialFollow';
 import ProfileCard from './ProfileCard';
-import RecentPosts from './RecentPosts';
+import RecentPosts from './RecentPost';
 import FilterByMenu from './FilterbyMenu';
 
 const Sidebar = () => {
