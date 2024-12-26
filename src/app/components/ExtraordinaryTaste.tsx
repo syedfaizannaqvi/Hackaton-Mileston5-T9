@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Image from 'next/image'
 import { FaHamburger, FaCookieBite, FaWineGlass } from 'react-icons/fa'
 
@@ -22,9 +22,9 @@ const ExtraordinaryTaste = () => {
     <section className="py-24 bg-transparent">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left side - Image Grid */}
+          {/* Left side - Image Grid 
           <div className="grid grid-cols-3 gap-4">
-            {/* First row */}
+            {/* First row }
             <div className="col-span-2 relative h-[280px]">
               <Image
                 src="/choose1.png"
@@ -42,7 +42,7 @@ const ExtraordinaryTaste = () => {
               />
             </div>
 
-            {/* Bottom row */}
+            {/* Bottom row }
             <div className="relative h-[280px]">
               <Image
                 src="/choose3.png"
@@ -83,7 +83,7 @@ const ExtraordinaryTaste = () => {
             
           </div>
 
-          {/* Right side - Content */}
+          {/* Right side - Content }
           <div className="space-y-8">
             <div>
               <h3 className="text-[#FF9F0D] font-great-vibes text-3xl mb-4">
@@ -103,7 +103,7 @@ const ExtraordinaryTaste = () => {
               dolore at, nihil iusto ducimus incidunt quibusdam nemo.
             </p>
 
-            {/* Feature Icons */}
+            {/* Feature Icons }
             <div className="grid grid-cols-3 gap-4">
               {features.map((feature, index) => (
                 <div key={index} className="text-center">
@@ -115,7 +115,7 @@ const ExtraordinaryTaste = () => {
               ))}
             </div>
 
-            {/* Experience Counter */}
+            {/* Experience Counter }
             <div className="flex items-center gap-6 mx-auto">
               <div className="flex items-center bg-white w-[300px] border-l-8 gap-4 border-[#FF9F0D] rounded-xl p-4">
                 <div className="text-[#FF9F0D] text-5xl font-bold mb-2">
@@ -134,4 +134,5 @@ const ExtraordinaryTaste = () => {
   )
 }
 
-export default ExtraordinaryTaste 
+export default ExtraordinaryTaste
+
