@@ -64,6 +64,6 @@ const BlogSidebar = ({ recentPosts, filterImages, instagramImages }: SidebarProp
             </div>
         </div>
     );
-};
+});
 
 export default BlogSidebar; 
